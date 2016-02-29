@@ -107,7 +107,7 @@
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="activ">
-              <a href="#">
+              <a href="/admin/message">
                 <i class="fa fa-envelope"></i>
                 <span>Messages</span>
               </a>
