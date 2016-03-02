@@ -18,7 +18,7 @@ class CreateMessageQueue extends Migration
             $table->integer('device_id')->usigned()->index();
             $table->text('message');
             $table->integer('badge')->default('0');
-            $table->string('sound');
+            $table->string('sound')->default('default');
             $table->integer('status')->default('0');
             $table->timestamps();
         });

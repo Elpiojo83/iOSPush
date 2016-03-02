@@ -51,14 +51,14 @@
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <img src="/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                  <span class="hidden-xs">Alexander Pierce</span>
+                  <span class="hidden-xs">David Krachler</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- User image -->
                   <li class="user-header">
                     <img src="/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
-                      Alexander Pierce - Web Developer
+                      David Krachler - Web Developer
                       <small>Member since Nov. 2012</small>
                     </p>
                   </li>
@@ -99,7 +99,7 @@
               <img src="/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-              <p>Alexander Pierce</p>
+              <p>David Krachler</p>
               <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
             </div>
           </div>
@@ -113,7 +113,7 @@
               </a>
             </li>
             <li>
-		      <a href="#">
+		      <a href="/admin/device">
 		        <i class="fa fa-mobile"></i>
 		        <span>Devices</span>
 		        <span class="label label-primary pull-right">151</span>
@@ -178,7 +178,7 @@
       </div><!-- /.content-wrapper -->
       <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
+          <b>Version</b> 1.0
         </div>
         <strong>Copyright &copy; 2016
       </footer>

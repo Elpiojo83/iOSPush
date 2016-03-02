@@ -15,9 +15,9 @@ class CreateMessagesTable extends Migration
         Schema::create('messages', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('cerificate_id')->unsigned()->index();
-            $table->interger('device_id')->unsigned()->index();
+            $table->integer('device_id')->unsigned()->index();
             $table->string('message');
-            $table->tinyInteger('badge');
+            $table->tinyInteger('badge')->default(1);
             $table->string('sound')->default('default');
             $table->tinyInteger('status')->default(1);
             $table->timestamps();
