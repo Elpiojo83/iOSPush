@@ -30,7 +30,10 @@ Route::post('admin/device/add', 'DeviceController@add');
 //Message
 Route::get('admin/message/', 'MessageController@index');
 Route::post('admin/message/add', 'MessageController@add');
-Route::post('admin/message/send', 'MessageController@send');
+
+
+//MessageQueue
+Route::post('admin/message/send', 'MessageQueueController@proceedMessageQueue');
 
 //Device
 Route::get('admin/device/', 'DeviceController@index');

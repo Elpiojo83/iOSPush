@@ -13,8 +13,23 @@
           </div><!-- /.box-header -->
           <div class="box-body">
             <ul class="list-group">
+            	<li class="list-group-item">
+	            	<div class="row">
+						<div class="col-sm-6">
+							Server
+						</div>
+						<div class="col-sm-6">
+							Url
+						</div>
+					</div>
+				</li>
 				@foreach($server as $item)
-					<li class="list-group-item">{{ $item->server_title }}</li>
+					<li class="list-group-item">
+						<div class="row">
+							<div class="col-sm-6">{{ $item->server_title }}</div>
+							<div class="col-sm-6">{{ $item->server_url }}</div>
+						</div>
+					</li>
 				@endforeach
 			</ul>
           </div><!-- /.box-body -->

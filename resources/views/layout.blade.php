@@ -59,21 +59,10 @@
                     <img src="/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
                       David Krachler - Web Developer
-                      <small>Member since Nov. 2012</small>
                     </p>
                   </li>
                   <!-- Menu Body -->
-                  <li class="user-body">
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Followers</a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Sales</a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Friends</a>
-                    </div>
-                  </li>
+                 
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
@@ -116,7 +105,7 @@
 		      <a href="/admin/device">
 		        <i class="fa fa-mobile"></i>
 		        <span>Devices</span>
-		        <span class="label label-primary pull-right">151</span>
+		        <span class="label label-primary pull-right hidden">151</span>
 		      </a>
 		    </li>
             <li class="active treeview">

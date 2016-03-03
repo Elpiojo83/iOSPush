@@ -25,7 +25,16 @@
 						<div class="row">
 							<div class="col-xs-1">{{$item->id}}</div>
 		            		<div class="col-xs-9">{{ $item->device_token }}</div>
-							<div class="col-xs-2">{{ $item->is_test_device }}</div>
+							<div class="col-xs-2">
+								<?php
+									if($item->is_test_device === 1){
+										echo '<span class="label label-danger ">yes</span>';
+									}
+									else{
+										echo '<span class="label label-primary">no</span>';
+									}
+								?>
+							</div>
 						</div>
 					</li>
 				@endforeach
